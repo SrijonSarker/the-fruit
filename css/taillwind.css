@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#team {
+    background: linear-gradient(rgba(18,18,18,0.7),rgba(18,18,18,0.7)), url(./../pic/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#m190 {
+    height: 600px;
+}
+
+@media (max-width: 569px){
+    #m190 {
+        height: 190px !important;
+        max-height: 190px !important;
+    }
+}
